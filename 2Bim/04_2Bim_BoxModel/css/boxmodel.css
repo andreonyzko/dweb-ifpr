@@ -1,0 +1,85 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 60px 60px;
+    /*
+    margin-top: 60px;
+    margin-right: 60px;
+    margin-bottom: 60px;
+    margin-left: 60px;
+    */
+    border-style:double;
+    border-width:3px;
+    border-color: gray;
+    /*
+    padding-top:20px ;
+    padding-right:20px ;
+    padding-bottom:20px ;
+    padding-left:20px ;
+    */
+    padding: 20px 20px;
+
+}
+
+h1{
+    background-color:cornflowerblue;
+    color:white ;
+    width: fit-content;
+    margin:auto;
+    padding: 5px 20px;
+    border: 2px solid blue;
+
+}
+p{
+    border: solid 1px blue;
+
+}
+span{
+    border:dotted 2px rgb(108, 204, 204) ;
+    padding-right:20px ;
+    padding-left:20px ;
+    display: block;
+}
+.box1{
+    position: static;
+    background-color: yellow;
+    border: 1px solid red;
+    width: 400px;
+    height: 50px;
+    top: 300px;/* funciona junto com apropriedade position pode ser top rigth bottom left*/
+}
+.box2{
+    position: relative;
+    background-color: blue;
+    border:solid 1px red;
+    width: 400px;
+    height:50px ;
+    bottom: 50px;
+    left:450px ;
+}
+.box3{
+    position: absolute;
+    background-color: aquamarine;
+    border: solid 1px red;
+    width: 400px;
+    top: 0px;
+    left: 0;
+}
+.box4{
+    position: fixed;
+    background-color: darkgreen;
+    border: solid 1px red;
+    width: 400px;
+    height:50px ;
+    right: 0px;
+    top: 0px;
+}
+.box5{
+    position: sticky;
+    background-color: darkgreen;
+    border: solid 1px red;
+    width: 400px;
+    height:50px ;
+    left: 150px;
+    bottom: 20px;
+
+}

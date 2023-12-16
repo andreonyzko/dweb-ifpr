@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    margin: 0.5% 2%;
+}
+
+#hr-header{
+    height: 1.5vh;
+    color: #004040;
+    background-color: #004040;
+    margin: 0px;
+}
+
+#logo-header, nav {
+    display: inline-block;
+    height: fit-content;
+    width: 48%;
+}
+
+nav{
+    text-align: right;
+    float: right;
+    position: relative;
+    top: 4vh;
+}
+
+nav a{
+    color: #004040;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav > a:hover{
+    font-weight: bold;
+}
+
+p { 
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
+
+
+#picture-home{
+    margin: 2% -2%;
+    text-align: center;
+    background-color: #E2E9E2;
+}
+
+#picture-home > img {
+    width: 70%;
+    padding: 0.1% 2%;
+}
+
+main{
+    margin: 2% 2%;
+    min-height: 68vh;
+}
+
+footer{
+    margin: 0px;
+    padding: 2% 0%;
+    background-color: #004040;
+}
+
+#video{
+    margin: auto;
+    width: 120vh;
+    height: 68vh;
+}
+
+#video > iframe {
+    width: 100%;
+    height: 100%;
+}
+
+#siteifpr{
+    width: fit-content;
+    margin: auto;
+    height: 80vh;
+    background-color: royalblue;
+}
+
+#copyright{
+    display: block;
+    text-align: center;
+    color: white;
+}

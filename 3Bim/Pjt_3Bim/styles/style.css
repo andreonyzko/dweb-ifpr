@@ -1,0 +1,595 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --azul: #08273B;
+    --azul-100: #395262;
+    --verde: #17A49C;
+    --cinza: #999;
+    --cinza-400: #626262;
+    --branco: #fff;
+    --preto: #000;
+    --sombra: rgba(81, 81, 81, .24);
+    --font1: 'Raleway';
+    --font2: 'Open Sans';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font2);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    margin: 2vw 8vw;
+    font-family: var(--font1);
+}
+
+header img,
+nav {
+    display: inline-block;
+}
+
+header img {
+    width: 15%;
+}
+
+header a:hover {
+    color: var(--verde);
+    transition: 0.3s;
+}
+
+nav {
+    text-align: right;
+    vertical-align: 50%;
+    width: 84%;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--cinza-400);
+    margin-inline-end: 2vw;
+    font-size: 0.8em;
+}
+
+#login {
+    border: 1px black solid;
+    padding: 0.5vw 1.5vw;
+}
+
+#contact-header {
+    font-family: var(--font1);
+    background-color: var(--azul);
+    color: white;
+    text-align: center;
+    padding: 1vw;
+}
+
+main a:hover {
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+#title-img-home {
+    margin: 0vw 8vw;
+}
+
+#title-home,
+#img-home {
+    display: inline-block;
+    width: 49%;
+}
+
+#img-home {
+    height: 30vw;
+    background-image: url(../img/sistema-desktop.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#title-home {
+    vertical-align: top;
+}
+
+#title-home p {
+    color: var(--azul);
+    font-size: 3em;
+    width: 60%;
+    font-weight: 800;
+    margin: 4vw 0;
+}
+
+#title-home a {
+    font-family: var(--font2);
+    background-color: var(--verde);
+    padding: 1.5vw 2vw;
+    text-decoration: none;
+    color: white;
+}
+
+#informations-home {
+    margin: 0 8vw 4vw 8vw;
+}
+
+.information-home {
+    width: 20%;
+    display: inline-block;
+    padding: 1.8vw;
+    vertical-align: top;
+}
+
+.information-home h2 {
+    color: var(--azul-100);
+    margin-bottom: 1vw;
+}
+
+.information-home p {
+    color: var(--cinza);
+}
+
+#bck-aboutus {
+    background-image: url(../img/bg-admin.jpg);
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#aboutus {
+    padding: 10vw;
+}
+
+#text-aboutus {
+    width: 50%;
+    color: white;
+}
+
+#text-aboutus h2 {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 3vw;
+}
+
+#text-aboutus p {
+    opacity: 0.7;
+    font-weight: 500;
+    margin-bottom: 4vw;
+}
+
+#text-aboutus a {
+    font-family: var(--font2);
+    background-color: var(--verde);
+    padding: 1.5vw 2vw;
+    text-decoration: none;
+    color: white;
+}
+
+#planos {
+    margin: 10vw 8vw;
+}
+
+#planos h2 {
+    color: var(--azul);
+    font-size: 3em;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 4vw;
+}
+
+#planos>p {
+    text-align: center;
+    color: var(--cinza);
+    margin-bottom: 4vw;
+}
+
+.planos {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin-inline-end: 2vw;
+    border: 1px var(--cinza) solid;
+}
+
+.planos h3 {
+    background-color: #08273B;
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 1vw;
+}
+
+.planos ol {
+    list-style: "▸ ";
+    list-style-position: inside;
+}
+
+.planos>p,
+.planos>ol,
+.planos div {
+    font-family: var(--font2);
+    margin: 1.5vw;
+}
+
+.cards-plans,
+.price-plans {
+    display: block;
+    text-align: center;
+    color: rgb(54, 54, 54);
+}
+
+.price-plans {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-top: 4vw;
+}
+
+.cards-plans {
+    font-size: 1.3em;
+    margin-bottom: 4vw;
+}
+
+.planos a {
+    display: block;
+    font-family: var(--font2);
+    background-color: var(--verde);
+    padding: 1.5vw 2vw;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+#tutorial {
+    margin: 4vw 8vw 15vw 8vw;
+}
+
+#video-tutorial,
+#text-tutorial {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+    margin-inline-end: 2vw;
+}
+
+#video-tutorial iframe {
+    width: 100%;
+}
+
+#video-tutorial {
+    vertical-align: bottom;
+}
+
+#text-tutorial {
+    margin: 0 0 0 5vw;
+}
+
+#text-tutorial p {
+    color: var(--azul);
+    width: 60%;
+    font-size: 2.5em;
+    font-family: var(--font1);
+    font-weight: 600;
+    margin-bottom: 3vw;
+}
+
+#text-tutorial span {
+    color: var(--verde);
+    font-weight: 700;
+}
+
+#text-tutorial a {
+    font-family: var(--font2);
+    background-color: var(--verde);
+    padding: 1.5vw 2vw;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+#contact {
+    margin: 0 8vw 10vw 8vw;
+}
+
+#form-contact,
+#parter-contact {
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+}
+
+#form-contact input,
+#form-contact select {
+    display: block;
+    border: 0;
+    border-bottom: 1px var(--cinza) solid;
+    margin: 2vw 0;
+    font-size: 0.9em;
+    width: 100%;
+    padding: 0.6vw 0;
+}
+
+form>p {
+    color: var(--verde);
+    font-weight: bold;
+}
+
+#form-contact input[name="message"] {
+    height: 3.2vw;
+}
+
+#form-contact input:focus {
+    outline: none;
+}
+
+#form-contact input[name="message"]::placeholder {
+    text-wrap: wrap;
+}
+
+#form-contact input[type="submit"] {
+    width: 30%;
+    height: 3vw;
+    background-color: white;
+    border: 1px var(--cinza) solid;
+    color: var(--verde);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    border-radius: 0.5vw;
+}
+
+#form-contact input[type="submit"]:hover {
+    color: var(--branco);
+    background-color: var(--verde);
+    border: 1px var(--verde) solid;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#parter-contact {
+    margin-left: 16vw;
+}
+
+
+#parter-contact h2 {
+    color: var(--verde);
+    font-size: 3em;
+    width: 50%;
+    font-weight: bold;
+    margin-bottom: 2vw;
+}
+
+#parter-contact p {
+    color: var(--cinza);
+    font-size: 1em;
+}
+
+footer {
+    background-color: #08273B;
+}
+
+#footer {
+    padding: 4vw 8vw;
+    color: white;
+}
+
+#footer h3 {
+    color: #89eee9;
+    margin-bottom: 2vw;
+}
+
+.footer-elements {
+    display: inline-block;
+    width: 24%;
+    vertical-align: top;
+}
+
+.footer-elements img {
+    margin-inline-end: 1vw;
+}
+
+#contact-footer a {
+    text-decoration: none;
+    color: white;
+}
+
+#plans-footer a,
+#politics-footer a {
+    display: block;
+    margin-bottom: 1vw;
+    text-decoration: none;
+    color: white;
+    font-size: 0.85em;
+}
+
+#instagram-img-footer img {
+    width: 10%;
+}
+
+#youtube-img-footer img {
+    width: 10%;
+}
+
+#facebook-img-footer img {
+    width: 5%;
+}
+
+#coutinhos-footer {
+    display: block;
+    margin-top: 1vw;
+}
+
+#coutinhos-footer img {
+    width: 70%;
+}
+
+#whatsapp {
+    position: fixed;
+    bottom: 2vw;
+    right: 1vw;
+    width: 4%;
+    border-radius: 360px;
+}
+
+#whatsapp img {
+    width: 100%;
+    border-radius: 360px;
+    box-shadow: 5px 5px 5px var(--sombra);
+}
+
+@media (max-width: 1000px) {
+
+    header img,
+    header nav {
+        display: block;
+    }
+
+    header nav {
+        text-align: center;
+        font-size: 5vw;
+        margin: 0 8vw;
+    }
+
+    nav a {
+        display: inline-block;
+    }
+
+    header img {
+        width: 70%;
+        margin: auto;
+        margin-bottom: 3vw;
+    }
+
+    #title-home,
+    #img-home {
+        display: block;
+    }
+
+    #title-home,
+    #title-home p {
+        width: 100%;
+        text-align: center;
+    }
+
+    #title-home h1 {
+        font-size: 4vw;
+    }
+
+    #title-home a {
+        font-size: 6vw;
+    }
+
+    #title-home {
+        margin-bottom: 10vw;
+    }
+
+    #img-home {
+        width: 100%;
+        height: 50vw;
+        margin: auto;
+        margin-top: 5vw;
+    }
+
+    .information-home {
+        width: 45%;
+    }
+
+    .information-home h2 {
+        font-size: 7vw;
+    }
+
+    .information-home p {
+        font-size: 5vw;
+    }
+
+    #text-aboutus {
+        width: 100%;
+    }
+
+    #text-aboutus p {
+        font-size: 5vw;
+    }
+
+    #text-aboutus a {
+        font-size: 6vw;
+    }
+
+    .planos {
+        display: block;
+        width: 100%;
+        margin: auto;
+        margin-bottom: 3vw;
+    }
+
+    #video-tutorial,
+    #text-tutorial {
+        display: block;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+
+    #text-tutorial p {
+        width: 100%;
+        text-align: center;
+    }
+
+    #parter-contact img {
+        max-width: 100%;
+        min-width: 20%;
+    }
+
+    #form-contact,
+    #parter-contact {
+        display: block;
+        width: 100%;
+    }
+
+    #form-contact {
+        font-size: 6vw;
+    }
+
+    #form-contact input[type="submit"] {
+        font-size: 7vw;
+        height: fit-content;
+        width: fit-content;
+        padding: 2vw 4vw;
+        margin-bottom: 20vw;
+    }
+
+    #parter-contact {
+        margin: 0;
+    }
+
+    #whatsapp {
+        width: 15%;
+        margin: 0 2vw;
+
+    }
+
+    .footer-elements {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    #instagram-img-footer img {
+        width: 4vw;
+    }
+
+    #youtube-img-footer img {
+        width: 4vw;
+    }
+
+    #facebook-img-footer img {
+        width: 2vw;
+    }
+
+    #coutinhos-footer {
+        width: 40vw;
+        margin: auto;
+        margin-top: 2vw;
+    }
+}

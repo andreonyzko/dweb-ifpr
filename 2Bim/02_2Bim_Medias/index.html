@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias</title>
+    <style>
+        picture, video, audio {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1>INSERINDO MÍDIAS</h1>
+    <h2>IMAGEM DO SERVIDOR LOCAL</h2>
+    <picture>
+        <source media="(max-width: 320px)" srcset="midias/img/bike_110.jpg">
+        <source media="(max-width: 670px)" srcset="midias/img/bike_320.jpg">
+        <source media="(max-width: 1110px)" srcset="midias/img/bike_640.jpg">
+        <img src="midias/img/bike_full.jpg" alt="">
+    </picture>  
+
+    <h2>IMAGEM DE SERVIDOR EXTERNO</h2>
+    <img src="https://img.freepik.com/fotos-gratis/ciclismo-curso-estilo-de-vida-de-ferias-de-montanha_1150-1017.jpg" alt="" width="50%">
+
+    <h2>VÍDEO DO SERVIDOR LOCAL</h2>
+    <video width="500" poster="midias/video/Bike.jpg" controls>
+        <source src="midias/video/_Bike.mp4" type="video/mp4">
+        <source src="midias/video/Bike.webm" type="video/webp">
+        <source src="midias/video/Bike.ogv" type="video/ogg">
+        <p>Seu navegador não reproduz vídeo. <a href="midias/video/_Bike.mp4">Clique aqui para baixar o arquivo.</a></p>
+    </video>
+
+    <h2>VÍDEO DE SERVIDOR EXTERNO</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/p2xBsiNca7c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <h2>ÁUDIO DO SERVIDOR LOCAL</h2>
+    <audio preload="metadata" controls loop>
+        <source src="midias/audio/Hey Sailor - Letter Box.mp3" type="audio/mpeg">
+        <source src="midias/audio/Hey Sailor - Letter Box.ogg" type="audio/ogg">
+        <source src="midias/audio/Hey-Sailor-Letter-Box.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não reproduz áudio. <a href="midias/audio/Hey Sailor - Letter Box.mp3">Clique aqui para baixar o arquivo.</a></p>
+    </audio>
+
+    <h2>AÚDIO DE SERVIDOR EXTERNO</h2>
+    <iframe width="30%" height="1%" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1503585676&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/ofc_samuelzada1" title="SAMUEL MÁXIMO - ogsamuz1nn 👑⚔️" target="_blank" style="color: #cccccc; text-decoration: none;">SAMUEL MÁXIMO - ogsamuz1nn 👑⚔️</a> · <a href="https://soundcloud.com/ofc_samuelzada1/matue-conexoes-de-mafia-feat" title="Matuê - Conexões de Máfia 💯🔥 feat. Rich the Kid" target="_blank" style="color: #cccccc; text-decoration: none;">Matuê - Conexões de Máfia 💯🔥 feat. Rich the Kid</a></div>
+</body>
+</html>

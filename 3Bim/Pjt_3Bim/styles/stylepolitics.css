@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --azul: #08273B;
+    --azul-100: #395262;
+    --verde: #17A49C;
+    --cinza: #999;
+    --cinza-400: #626262;
+    --branco: #fff;
+    --preto: #000;
+    --sombra: rgba(81, 81, 81, .24);
+    --font1: 'Raleway';
+    --font2: 'Open Sans';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font2);
+}
+
+main {
+    margin: 0 8vw;
+}
+
+h1 {
+    margin: 2vw 0;
+    font-family: var(--font1);
+    color: var(--azul);
+    font-size: 4em;
+    font-weight: bolder;
+}
+
+h2 {
+    color: var(--verde);
+}
+
+p {
+    margin: 1vw 0;
+    text-align: justify;
+}
+
+#contact-header p {
+    font-size: 1vw;
+    text-align: center;
+}
+
+@media (max-width: 1000px) {
+    h1 {
+        font-size: 10vw;
+    }
+
+    h2 {
+        font-size: 7vw;
+    }
+
+    p {
+        font-size: 5vw;
+        text-align: justify;
+    }
+
+    #contact-footer p {
+        text-align: center;
+        font-size: 3vw;
+    }
+
+    #contact-header p {
+        font-size: 4vw;
+        text-align: center;
+    }
+}

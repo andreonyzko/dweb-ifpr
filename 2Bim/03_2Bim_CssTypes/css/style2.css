@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    margin: 0px ;
+    background-color: #F2F2F2;
+}
+h1{
+    background-color: #168C34;
+    color: white;
+    padding: 50px;
+    text-align: center;
+    margin: 0px 0px 20px 0px;
+}
+h2{
+    background-color: #168C34;
+    color: white;
+    padding: 5px 10px;
+    width: fit-content;
+    margin: 0px;
+}
+h3{
+    color: #168C34;
+}
+p, ul{
+    font-size: 1.1em;
+    background-color: #E3E3E3;
+    padding: 5px;
+    border-radius: 10px;
+    list-style-position: inside;
+}
+
+h3, ul, p{
+    margin: 20px 10px;
+}
+
+    /*
+    font-size: tamanho;
+    font-family: familia/estilo;
+    font-weight: grossura;
+    font-style: estilo;
+    font-variant: serve para colocar em small caps;
+
+    background-color: definir o fundo com determinada cor;
+    background-image: definir degrade ou imagem como fundo;
+    background-position: ajustar posição da imagem de fundo;
+    background-repeat: repetir imagem de fundo até completar;
+    background-size: ajustar tamanho do background;
+
+    HEX: utiliza o sistema hexadecimal para fazer referencia as cores;
+    HSL: utiliza tonalidade, saturação e luminosidade;
+    HSLa: hsl acrescentado de opacidade
+    RGB: quantidades de vermelho, verde e azul;
+    RGBA: rgb acrescentado de opacidade;
+    
+
+    text-align: alinhamento do texto;
+    text-decoration: decoração de texto;
+    text-transform: transformar para minuscula/maiuscula;
+    text-indent: espaçamento no começo de parágrafos;
+    */
